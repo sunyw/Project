@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@null</item>
+    </style>
+
+    <style name="AppTheme.TransparentActivity" parent="AppTheme.Base">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="AppTheme.TransparentActivity.FullScreen">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:textAppearanceSmall">@style/TFTextSmallAppearance</item>
+        <item name="android:textAppearanceMedium">@style/TFTextMediumAppearance</item>
+        <item name="android:textAppearanceLarge">@style/TFTextLargeAppearance</item>
+        <item name="android:textAppearance">@style/TFTextAppearance</item>
+    </style>
+
+</resources>
